@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { Container, Row, Col, Card } from 'react-bootstrap'
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import profile_photo from "../images/profile_photo.jpg"
 
 
@@ -11,7 +11,7 @@ import "../css/index.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <Seo title="Home" />
 
     <div className='hero-image'>
       <div className='overlay overlay-padding'>
@@ -36,11 +36,11 @@ const IndexPage = () => (
           <p>
           I am currently a student at LEARN Academy, where I am cultivating my skills in JavaScript, React, and Ruby on Rails.
           <br /><br />
-          My background is in Mechanical Engineering, where the last four years I was working in the gas turbine industry as a design engineer. As a design engineer, it’s important to consider three things: form, fit, and function. I find programming has similar analogues, and I apply similar engineering principles when I code. That’s because a programmer needs to think about what the expected output is (the form), if the additional code breaks functionality (the fit), and how to get from the input to the output (the function). Engineering, whether it is mechanical or software, is ultimately about finding solutions to build something. The fun part is trying to piece together the puzzle when you don’t have all the pieces; and sometimes that requires making those pieces yourself.
+          My background is in Mechanical Engineering, where the last four years I was working in the gas turbine industry as a design engineer. As a design engineer, it’s important to consider three things: form, fit, and function. I find programming has similar analogues, and I apply similar engineering principles when I code. That’s because a programmer needs to think about what the expected output is (the form), if the additional code breaks functionality (the fit), and how to get from the input to the output (the function). Engineering, whether it is mechanical or software, is ultimately about finding solutions to build something. The fun part is trying to put together the puzzle when you don’t have all the pieces; and sometimes that requires making those pieces yourself.
           </p>
         </Col>
         <Col md={4} className="order-first order-md-0 text-center">
-          <img src={profile_photo} width="250" style={{ borderRadius: `20px`}} alt="profile"></img>
+          <img src={profile_photo} width="300" style={{ borderRadius: `20px`}} alt="profile"></img>
         </Col>
       </Row>
     </Container>
@@ -66,7 +66,7 @@ const IndexPage = () => (
               <Col xs={8} md={6} lg={5} xl={true}>
                 <Card style={{ marginBottom: `1rem` }}>
                   <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Lanuages</h5></Card.Header>
-                  <Card.Text>
+                  {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">JavaScript</li>
                       <li className="mx-auto skill-li">Ruby</li>
@@ -74,14 +74,14 @@ const IndexPage = () => (
                       <li className="mx-auto skill-li">Python</li>
                       <li className="mx-auto skill-li">Java</li>
                     </ul>
-                  </Card.Text>
+                  {/* </Card.Text> */}
                 </Card>
               </Col>
 
               <Col xs={8} md={6} lg={5} xl={true}>
                 <Card style={{ marginBottom: `1rem` }}>
                   <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Front End</h5></Card.Header>
-                  <Card.Text>
+                  {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">React</li>
                       <li className="mx-auto skill-li">Flask</li>
@@ -89,26 +89,26 @@ const IndexPage = () => (
                       <li className="mx-auto skill-li">CSS</li>
                       <li className="mx-auto skill-li">Bootstrap</li>
                     </ul>
-                  </Card.Text>
+                  {/* </Card.Text> */}
                 </Card>
               </Col>
 
               <Col xs={8} md={6} lg={5} xl={true}>
                 <Card style={{ marginBottom: `1rem` }}>
                   <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Back End</h5></Card.Header>
-                  <Card.Text>
+                  {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">Ruby on Rails</li>
                       <li className="mx-auto skill-li">PostgresQL</li>
                     </ul>
-                  </Card.Text>
+                  {/* </Card.Text> */}
                 </Card>
               </Col>
 
               <Col xs={8} md={6} lg={5} xl={true}>
                 <Card style={{ marginBottom: `1rem` }}>
                   <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Others</h5></Card.Header>
-                  <Card.Text>
+                  {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">Git</li>
                       <li className="mx-auto skill-li">Github</li>
@@ -116,7 +116,7 @@ const IndexPage = () => (
                       <li className="mx-auto skill-li">Rspec</li>
                       <li className="mx-auto skill-li">Android</li>
                     </ul>
-                  </Card.Text>
+                  {/* </Card.Text> */}
                 </Card>
               </Col>
 

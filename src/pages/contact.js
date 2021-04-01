@@ -3,7 +3,7 @@ import React from "react"
 import { Container, Row, Col } from 'react-bootstrap'
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import "../css/contact.css"
 
@@ -15,7 +15,7 @@ import GetAppIcon from '@material-ui/icons/GetApp'
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact" />
+    <Seo title="Contact" />
 
     <Container>
       <Row className="justify-content-center">

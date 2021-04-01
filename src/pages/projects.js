@@ -2,7 +2,7 @@ import React from "react";
 import { Container, CardColumns } from 'react-bootstrap'
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import ProjectCard from "../components/projectcard"
 import '../css/projects.css'
 
@@ -12,7 +12,7 @@ const ProjectsPage = () => {
   return (
     <>
       <Layout>
-        <SEO title="Projects" />
+        <Seo title="Projects" />
         <h1 className="text-center" style={{ marginTop: `1.5rem` }}>Projects</h1>
 
         <Container>

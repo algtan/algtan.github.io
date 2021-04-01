@@ -31,9 +31,7 @@ const Layout = ({ children }) => {
       <PageTransition>
         <main>{children}</main>
         <footer className="text-center footer-bg" style={{ marginTop: `1.5rem` }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()} Allen Tan
         </footer>
       </PageTransition>
 

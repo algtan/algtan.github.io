@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import '../css/background.css'
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
@@ -15,7 +15,7 @@ import StarIcon from '@material-ui/icons/Star';
 
 const BackgroundPage = () => (
   <Layout>
-    <SEO title="Work History and Education" />
+    <Seo title="Work History and Education" />
 
     <div className="background-body">
 
