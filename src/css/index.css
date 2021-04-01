@@ -1,0 +1,86 @@
+header {
+    margin-bottom: 0;
+}
+
+.hero-image {
+    height: 400px;
+    position: relative;
+    background-size: cover;
+    background-image: url("../images/brain_gears.jpg");
+    background-position: right;
+}
+
+.overlay {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    border: 3px solid white;
+    width: 95vw;
+    max-width: 610px;
+}
+
+.overlay-padding {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.hero-title {
+    font-size: 6rem;
+    display: inline-block;
+}
+
+.hero-intro-text {
+    font-size: 1.25rem;
+}
+
+.hero-desc-text {
+    font-size: 2.5rem;
+}
+
+span.line {
+    display: inline-block;
+}
+
+.intro-heading {
+    text-align: left;
+}
+
+.skill-title {
+    margin-bottom: 0px;
+}
+
+.skill-li {
+    width: 125px;
+}
+
+@media (max-width: 767px) {
+    .overlay-padding {
+        padding-top: 0.25rem;
+        padding-bottom: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .hero-title {
+        font-size: 5rem;
+        display: inline-block;
+    }
+    
+    .hero-intro-text {
+        font-size: 1rem;
+    }
+    
+    .hero-desc-text {
+        font-size: 2rem;
+    }
+
+    .intro-heading {
+        text-align: center;
+    }
+}

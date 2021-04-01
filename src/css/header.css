@@ -1,0 +1,19 @@
+header {
+    margin-bottom: 1.5rem;
+}
+
+.social-nav-item {
+    align-self: center;
+    float: left;
+    padding: 8px;
+}
+
+.social-icon {
+    height: 24px;
+    filter: invert(1);
+    opacity: .5
+}
+
+.social-icon:hover {
+    opacity: .9
+}
