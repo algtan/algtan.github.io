@@ -34,8 +34,34 @@ const BackgroundPage = () => (
           <h3 className="vertical-timeline-element-title">LEARN Academy</h3>
           <h4 className="vertical-timeline-element-subtitle">Full-Stack Developer Bootcamp</h4>
           <p>
-            Languages and Technologies: <br />JavaScript, HTML, CSS, React, Ruby, Ruby on Rails, PostgreSQL, Git, Jest, RSpec
+            Languages and Technologies: <br />JavaScript, Ruby, React, Rails, Git
           </p>
+          <div>
+            <img
+              src={`/javascript_logo.png`}
+              style={{ maxWidth: `25%`, margin: `auto`, padding: `5px` }}
+              alt="JavaScript logo"
+              >
+            </img>
+            <img
+              src={`/react_logo.svg`}
+              style={{ maxWidth: `25%`, margin: `auto` }}
+              alt="React logo"
+              >
+            </img>
+            <img
+              src={`/rails_logo.svg`}
+              style={{ maxWidth: `25%`, margin: `auto` }}
+              alt="Rails logo"
+              >
+            </img>
+            <img
+              src={`/git.png`}
+              style={{ maxWidth: `25%`, margin: `auto`, padding: `15px` }}
+              alt="Git logo"
+              >
+            </img>
+          </div>
         </VerticalTimelineElement>
 
         {/* Solar Turbines */}
@@ -50,6 +76,12 @@ const BackgroundPage = () => (
           <p>
             Group: NPI Combustion Mechanical Design
           </p>
+          <img
+            src={`/solar_engine.jpeg`}
+            style={{ maxWidth: `100%`, margin: `auto`}}
+            alt="gas turbine engine"
+            >
+          </img>
         </VerticalTimelineElement>
 
         {/* Mikroscan */}
@@ -64,6 +96,12 @@ const BackgroundPage = () => (
           <p>
             Technology: Digital Pathology and Live Telemicroscopy
           </p>
+          <img
+            src={`/mikroscan_sl5.jpeg`}
+            style={{ maxWidth: `100%`, margin: `auto`}}
+            alt="Mikroscan SL5"
+          >
+          </img>
         </VerticalTimelineElement>
 
         {/* SDSU */}
@@ -78,6 +116,12 @@ const BackgroundPage = () => (
           <p>
             Thesis Project: 3DOF Robotic Arm Exoskeleton
           </p>
+          <img
+            src={`/sdsu.jpeg`}
+            style={{ maxWidth: `100%`, margin: `auto`}}
+            alt="San Diego State"
+          >
+          </img>
         </VerticalTimelineElement>
 
         {/* UTC Aerospace Systems */}
@@ -92,6 +136,13 @@ const BackgroundPage = () => (
           <p>
             Product: Ventilation Fans
           </p>
+          <div className="utas-img">
+            <img
+              src={`/utas_fan.jpeg`}
+              alt="ventilation fan"
+            >
+            </img>
+          </div>
         </VerticalTimelineElement>
 
         {/* UCSD */}
@@ -106,6 +157,12 @@ const BackgroundPage = () => (
           <p>
             Minor: Sociology
           </p>
+          <img
+            src={`/ucsd.jpg`}
+            style={{ maxWidth: `100%`, margin: `auto`}}
+            alt="Geisel Library"
+          >
+          </img>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}

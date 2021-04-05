@@ -20,3 +20,13 @@
 .vertical-timeline-element-date {
   color: black;
 }
+
+.utas-img {
+  text-align: center;
+}
+
+@media (max-width: 1169px) {
+  .utas-img {
+    text-align: left;
+  }
+}
