@@ -63,9 +63,9 @@ const IndexPage = () => (
           <Container>
             <Row className="justify-content-around">
 
-              <Col xs={8} md={6} lg={5} xl={true}>
-                <Card style={{ marginBottom: `1rem` }}>
-                  <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Lanuages</h5></Card.Header>
+              <Col xs={8} md={6} lg={5} xl={true} className="d-flex">
+                <Card style={{ marginBottom: `1rem` }} className="flex-fill">
+                  <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Languages</h5></Card.Header>
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">JavaScript</li>
@@ -78,8 +78,8 @@ const IndexPage = () => (
                 </Card>
               </Col>
 
-              <Col xs={8} md={6} lg={5} xl={true}>
-                <Card style={{ marginBottom: `1rem` }}>
+              <Col xs={8} md={6} lg={5} xl={true} className="d-flex">
+                <Card style={{ marginBottom: `1rem` }} className="flex-fill">
                   <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Front End</h5></Card.Header>
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
@@ -93,20 +93,21 @@ const IndexPage = () => (
                 </Card>
               </Col>
 
-              <Col xs={8} md={6} lg={5} xl={true}>
-                <Card style={{ marginBottom: `1rem` }}>
+              <Col xs={8} md={6} lg={5} xl={true} className="d-flex">
+                <Card style={{ marginBottom: `1rem` }} className="flex-fill">
                   <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Back End</h5></Card.Header>
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">Ruby on Rails</li>
                       <li className="mx-auto skill-li">PostgresQL</li>
+                      <li className="mx-auto skill-li">RESTful API</li>
                     </ul>
                   {/* </Card.Text> */}
                 </Card>
               </Col>
 
-              <Col xs={8} md={6} lg={5} xl={true}>
-                <Card style={{ marginBottom: `1rem` }}>
+              <Col xs={8} md={6} lg={5} xl={true} className="d-flex">
+                <Card style={{ marginBottom: `1rem` }} className="flex-fill">
                   <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Others</h5></Card.Header>
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
