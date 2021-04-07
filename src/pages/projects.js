@@ -15,7 +15,7 @@ const ProjectsPage = () => {
         <Seo title="Projects" />
         <h1 className="text-center" style={{ marginTop: `1.5rem` }}>Projects</h1>
 
-        <Container>
+        <Container style={{ marginBottom: `2rem` }}>
 
           <CardColumns>
           

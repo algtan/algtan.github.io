@@ -7,11 +7,16 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
+import { Container, Row, Col } from "react-bootstrap"
 
 import Header from "./header"
-import 'bootstrap/dist/css/bootstrap.min.css';
 import PageTransition from 'gatsby-plugin-page-transitions';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../css/layout.css'
+import linkedinIcon from "../images/social-networking-icons/linkedinIcon.svg"
+import githubIcon from "../images/social-networking-icons/githubIcon.svg"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -26,15 +31,42 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <div className="body-content">
       <Header siteTitle={data.site.siteMetadata.title} />
 
       <PageTransition>
         <main>{children}</main>
-        <footer className="text-center footer-bg" style={{ marginTop: `1.5rem` }}>
-          © {new Date().getFullYear()} Allen Tan
-        </footer>
       </PageTransition>
-
+      </div>
+      <footer className="text-white bg-dark">
+        <Container>
+          <Row className="justify-content-center" style={{ paddingTop: `10px` }}>
+            <Col md={2} className="text-center">
+              <Link to="/" className="footer-link">About Me</Link>
+            </Col>
+            <Col md={2} className="text-center">
+              <Link to="/background" className="footer-link">Background</Link>
+            </Col>
+            <Col md={2} className="text-center">
+              <Link to="/projects" className="footer-link">Projects</Link>
+            </Col>
+            <Col md={2} className="text-center">
+              <Link to="/contact" className="footer-link">Contact</Link>
+            </Col>
+          </Row>
+          <Row className="justify-content-center">
+            <a href="https://github.com/algtan" target="_blank" rel="noreferrer">
+              <img src={githubIcon} className="social-icon" alt="Github account" style={{ margin: `10px`}}></img>
+            </a>
+            <a href="https://linkedin.com/in/allen-tan" target="_blank" rel="noreferrer">
+              <img src={linkedinIcon} className="social-icon" alt="LinkedIn account" style={{ margin: `10px`}}></img>
+            </a>
+          </Row>
+          <div style={{ textAlign: `center`}}>
+            © {new Date().getFullYear()} Allen Tan
+          </div>
+        </Container>
+      </footer>
 
     </>
   )

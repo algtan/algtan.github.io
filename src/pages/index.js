@@ -6,6 +6,10 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import profile_photo from "../images/profile_photo.jpg"
 
+import CodeIcon from '@material-ui/icons/Code';
+import DesktopWindowsIcon from '@material-ui/icons/DesktopWindows';
+import StorageIcon from '@material-ui/icons/Storage';
+import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 
 import "../css/index.css"
 
@@ -65,7 +69,10 @@ const IndexPage = () => (
 
               <Col xs={8} md={6} lg={5} xl={true} className="d-flex">
                 <Card style={{ marginBottom: `1rem` }} className="flex-fill">
-                  <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Languages</h5></Card.Header>
+                  <Card.Header className="text-center">
+                    <CodeIcon fontSize="large"/>
+                    <h5 className="skill-title">Languages</h5>
+                  </Card.Header>
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">JavaScript</li>
@@ -80,7 +87,10 @@ const IndexPage = () => (
 
               <Col xs={8} md={6} lg={5} xl={true} className="d-flex">
                 <Card style={{ marginBottom: `1rem` }} className="flex-fill">
-                  <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Front End</h5></Card.Header>
+                  <Card.Header className="text-center">
+                    <DesktopWindowsIcon fontSize="large"/>
+                    <h5 className="skill-title">Front End</h5>
+                  </Card.Header>
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">React</li>
@@ -95,7 +105,10 @@ const IndexPage = () => (
 
               <Col xs={8} md={6} lg={5} xl={true} className="d-flex">
                 <Card style={{ marginBottom: `1rem` }} className="flex-fill">
-                  <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Back End</h5></Card.Header>
+                  <Card.Header className="text-center">
+                    <StorageIcon fontSize="large"/>
+                    <h5 className="skill-title">Back End</h5>
+                  </Card.Header>
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">Ruby on Rails</li>
@@ -108,7 +121,10 @@ const IndexPage = () => (
 
               <Col xs={8} md={6} lg={5} xl={true} className="d-flex">
                 <Card style={{ marginBottom: `1rem` }} className="flex-fill">
-                  <Card.Header className="text-center"><h5 className="font-weight-normal skill-title">Others</h5></Card.Header>
+                  <Card.Header className="text-center">
+                    <MoreHorizIcon fontSize="large"/>
+                    <h5 className="skill-title">Others</h5>
+                  </Card.Header>
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">Git</li>
@@ -130,7 +146,7 @@ const IndexPage = () => (
       </Row>
     </Container>
 
-    <Container>
+    <Container style={{ marginBottom: `2rem` }}>
       <Row>
         <Col className="text-center">
           <br />
