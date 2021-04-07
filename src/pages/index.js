@@ -128,7 +128,7 @@ const IndexPage = () => (
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">Git</li>
-                      <li className="mx-auto skill-li">Github</li>
+                      <li className="mx-auto skill-li">GitHub</li>
                       <li className="mx-auto skill-li">Jest</li>
                       <li className="mx-auto skill-li">Rspec</li>
                       <li className="mx-auto skill-li">Android</li>

@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
       </PageTransition>
       </div>
-      <footer className="text-white bg-dark">
+      <footer className="text-white bg-dark" style={{ paddingBottom: `10px` }}>
         <Container>
           <Row className="justify-content-center" style={{ paddingTop: `10px` }}>
             <Col md={2} className="text-center">
