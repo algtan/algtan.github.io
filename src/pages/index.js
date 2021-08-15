@@ -38,7 +38,7 @@ const IndexPage = () => (
           <h5 className="font-weight-light intro-heading">Developer. Engineer. Problem Solver.</h5>
           <span style={{ display: `block`, marginBottom: `1em` }}></span>
           <p>
-          I am currently a student at LEARN Academy, where I am cultivating my skills in JavaScript, React, and Ruby on Rails.
+          I am currently an intern at Edge, where I am cultivating my skills in TypeScript, React, and Express.
           <br /><br />
           My background is in Mechanical Engineering, where the last four years I was working in the gas turbine industry as a design engineer. As a design engineer, it’s important to consider three things: form, fit, and function. I find programming has similar analogues, and I apply similar engineering principles when I code. That’s because a programmer needs to think about what the expected output is (the form), if the additional code breaks functionality (the fit), and how to get from the input to the output (the function). Engineering, whether it is mechanical or software, is ultimately about finding solutions to build something. The fun part is trying to put together the puzzle when you don’t have all the pieces; and sometimes that requires making those pieces yourself.
           </p>
@@ -76,10 +76,8 @@ const IndexPage = () => (
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">JavaScript</li>
+                      <li className="mx-auto skill-li">TypeScript</li>
                       <li className="mx-auto skill-li">Ruby</li>
-                      <li className="mx-auto skill-li">C</li>
-                      <li className="mx-auto skill-li">Python</li>
-                      <li className="mx-auto skill-li">Java</li>
                     </ul>
                   {/* </Card.Text> */}
                 </Card>
@@ -94,10 +92,8 @@ const IndexPage = () => (
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">React</li>
-                      <li className="mx-auto skill-li">Flask</li>
                       <li className="mx-auto skill-li">HTML</li>
                       <li className="mx-auto skill-li">CSS</li>
-                      <li className="mx-auto skill-li">Bootstrap</li>
                     </ul>
                   {/* </Card.Text> */}
                 </Card>
@@ -111,9 +107,9 @@ const IndexPage = () => (
                   </Card.Header>
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
+                      <li className="mx-auto skill-li">Express</li>
                       <li className="mx-auto skill-li">Ruby on Rails</li>
-                      <li className="mx-auto skill-li">PostgresQL</li>
-                      <li className="mx-auto skill-li">RESTful API</li>
+                      <li className="mx-auto skill-li">CouchDB (noSQL)</li>
                     </ul>
                   {/* </Card.Text> */}
                 </Card>
@@ -128,10 +124,8 @@ const IndexPage = () => (
                   {/* <Card.Text> */}
                     <ul style={{ paddingTop: `0.5rem` }}>
                       <li className="mx-auto skill-li">Git</li>
-                      <li className="mx-auto skill-li">GitHub</li>
-                      <li className="mx-auto skill-li">Jest</li>
+                      <li className="mx-auto skill-li">Chai</li>
                       <li className="mx-auto skill-li">Rspec</li>
-                      <li className="mx-auto skill-li">Android</li>
                     </ul>
                   {/* </Card.Text> */}
                 </Card>
