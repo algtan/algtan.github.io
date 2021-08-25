@@ -24,10 +24,29 @@ const BackgroundPage = () => (
 
       <VerticalTimeline className="vertical-timeline vertical-timeline-custom-line">
 
+        {/* Edge */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="May 2021 - Present"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<WorkIcon />}
+          >
+          <h3 className="vertical-timeline-element-subtitle">Edge</h3>
+          <h4 className="vertical-timeline-element-title">Software Engineer Intern</h4>
+          <p>
+            Product: Cryptocurrency Wallet
+          </p>
+          <img
+            src={`/crypto_coins.jpg`}
+            style={{ maxWidth: `100%`, margin: `auto`}}
+            alt="crypto coins"
+            >
+          </img>
+        </VerticalTimelineElement>
         {/* LEARN */}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="Feb 2021 - Present"
+          date="Feb 2021 - May 2021"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           icon={<SchoolIcon />}
           >
@@ -71,8 +90,8 @@ const BackgroundPage = () => (
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<WorkIcon />}
           >
-          <h3 className="vertical-timeline-element-title">Senior Engineer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Solar Turbines (via Volt)</h4>
+          <h3 className="vertical-timeline-element-subtitle">Solar Turbines (via Volt)</h3>
+          <h4 className="vertical-timeline-element-title">Senior Engineer</h4>
           <p>
             Group: NPI Combustion Mechanical Design
           </p>
@@ -91,8 +110,8 @@ const BackgroundPage = () => (
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<WorkIcon />}
           >
-          <h3 className="vertical-timeline-element-title">Mechanical Design Engineer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Mikroscan Technologies, Inc.</h4>
+          <h3 className="vertical-timeline-element-subtitle">Mikroscan Technologies, Inc.</h3>
+          <h4 className="vertical-timeline-element-title">Mechanical Design Engineer</h4>
           <p>
             Technology: Digital Pathology and Live Telemicroscopy
           </p>
@@ -131,8 +150,8 @@ const BackgroundPage = () => (
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<WorkIcon />}
           >
-          <h3 className="vertical-timeline-element-title">Manufacturing Engineer Intern</h3>
-          <h4 className="vertical-timeline-element-subtitle">UTC Aerospace Systems</h4>
+          <h3 className="vertical-timeline-element-subtitle">UTC Aerospace Systems</h3>
+          <h4 className="vertical-timeline-element-title">Manufacturing Engineer Intern</h4>
           <p>
             Product: Ventilation Fans
           </p>
