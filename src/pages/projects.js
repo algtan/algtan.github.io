@@ -19,7 +19,40 @@ const ProjectsPage = () => {
 
           <CardColumns>
           
-            {/* Card 1 */}
+            {/* Edge Snack Bar */}
+            <ProjectCard
+              cardImg={`/edge_snack_bar_01.png`}
+              projectTitle="Edge Snack Bar"
+              cardText="Web applicatoin that generates a QR code for multiple cryptocurrency options for those in the Edge office that would like to purchase a snack."
+              tools={['TypeScript', 'React']}
+              buttonInfo={[
+                {link: "https://github.com/EdgeApp/edge-snack-bar-app", ghIcon: true, text: ' Repo'}
+              ]}
+              carouselImgs={[
+                `/edge_snack_bar_01.png`,
+                `/edge_snack_bar_02.png`,
+                `/edge_snack_bar_03.png`
+              ]}
+              />
+
+            {/* Pokedeck */}
+            <ProjectCard
+              cardImg={`/pokedeck_01.png`}
+              projectTitle="Pokedeck"
+              cardText="Pokemon Trading Card Game where users compete to have the most valuable collection."
+              tools={['Ruby on Rails', 'React']}
+              buttonInfo={[
+                {link: "https://github.com/squirtlesquad2021a/pokedeck_capstone_app", ghIcon: true, text: ' Repo'}
+              ]}
+              carouselImgs={[
+                `/pokedeck_01.png`,
+                `/pokedeck_02.png`,
+                `/pokedeck_03.png`,
+                `/pokedeck_04.png`
+              ]}
+              />
+
+            {/* Pokedex */}
             <ProjectCard
               cardImg={`/pokedex_01.png`}
               projectTitle="Pokedex"
@@ -37,7 +70,7 @@ const ProjectsPage = () => {
               />
 
               
-            {/* Card 2 */}
+            {/* Mortgage Calculator */}
             <ProjectCard
               cardImg={`/mortgage_calc_01.png`}
               projectTitle="Mortgage Calculator"
@@ -54,7 +87,7 @@ const ProjectsPage = () => {
               ]}
               />
 
-            {/* Card 3 */}
+            {/* Robotic Arm */}
             <ProjectCard
               cardImg={`/robotic_arm_01.png`}
               projectTitle="3DOF Robotic Arm"
