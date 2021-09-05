@@ -19,6 +19,20 @@ const ProjectsPage = () => {
 
           <CardColumns>
           
+            {/* Edge Swap Server */}
+            <ProjectCard
+              cardImg={`/edge_swap_server_01.png`}
+              projectTitle="Edge Swap Server"
+              cardText="Server that maintains and serves swap information for multiple cryptocurrency pairs."
+              tools={['TypeScript', 'Express', 'Node.js', 'CouchDB']}
+              buttonInfo={[
+                {link: "https://github.com/EdgeApp/edge-swap-server", ghIcon: true, text: ' Repo'}
+              ]}
+              carouselImgs={[
+                `/edge_swap_server_01.png`
+              ]}
+              />
+
             {/* Edge Snack Bar */}
             <ProjectCard
               cardImg={`/edge_snack_bar_01.png`}
