@@ -23,10 +23,11 @@ const ProjectsPage = () => {
             <ProjectCard
               cardImg={`/edge_snack_bar_01.png`}
               projectTitle="Edge Snack Bar"
-              cardText="Web applicatoin that generates a QR code for multiple cryptocurrency options for those in the Edge office that would like to purchase a snack."
+              cardText="Web application that generates a QR code for multiple cryptocurrency options for those in the Edge office that would like to purchase a snack."
               tools={['TypeScript', 'React']}
               buttonInfo={[
-                {link: "https://github.com/EdgeApp/edge-snack-bar-app", ghIcon: true, text: ' Repo'}
+                {link: "https://github.com/EdgeApp/edge-snack-bar-app", ghIcon: true, text: ' Repo'},
+                {link: "https://edgeapp.github.io/edge-snack-bar-app/", ghIcon: false, text: 'Live Site'}
               ]}
               carouselImgs={[
                 `/edge_snack_bar_01.png`,
@@ -42,7 +43,8 @@ const ProjectsPage = () => {
               cardText="Pokemon Trading Card Game where users compete to have the most valuable collection."
               tools={['Ruby on Rails', 'React']}
               buttonInfo={[
-                {link: "https://github.com/squirtlesquad2021a/pokedeck_capstone_app", ghIcon: true, text: ' Repo'}
+                {link: "https://github.com/squirtlesquad2021a/pokedeck_capstone_app", ghIcon: true, text: ' Repo'},
+                {link: "https://pokedeck-game.herokuapp.com/", ghIcon: false, text: 'Live Site'}
               ]}
               carouselImgs={[
                 `/pokedeck_01.png`,
